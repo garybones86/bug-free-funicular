@@ -5,7 +5,7 @@ import { Toaster } from 'react-hot-toast';
 
 import { Layout } from '../components';
 import '../styles/globals.css';
-import { git StateContext } from '../context/stateContext.js';
+import {  StateContext } from '../context/stateContext.js';
 
 function MyApp({ Component, pageProps }) {
   return (
