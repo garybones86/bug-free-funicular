@@ -4,7 +4,7 @@ import { AiOutlineShopping } from 'react-icons/ai'
 
 import { Cart } from './';
 
-import { useStateContext} from '../context/StateContext';
+import { useStateContext} from '../context/stateContext.js';
 
 const Navbar = () => {
 const {showCart,setShowCart, totalQuantities}= useStateContext();
