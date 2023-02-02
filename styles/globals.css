@@ -633,25 +633,38 @@ margin-top: 160px;
   .hero-banner-container {
 
     padding: 30px;
-    background-image: url(https://images.pexels.com/photos/4761671/pexels-photo-4761671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    
+  object-fit: contain;
   
-    background-position: 20%;
-    border-radius: 15px;
+    
     position: relative;
     height: 96%;
     line-height: 0.9;
     width: 100%;
     color: white;
     border-radius: 10%;
+    text-size-adjust: 20%;
 }
   .hero-banner-image{
     position: absolute;
-    width: 40%;
-    left: 50%;
-    top: 6%;
-    height: 30%
+    width: 20%;
+    left: 70%;
+    top: 20%;
+    height: 20%
   }
+
+  .hero-des{
+    display:none;
+  }
+
+  .hero-desc-title{
+    display:none;
+  }
+  .beats-solo{
+    display:none;
+  }
+.midText{
+  display:none;
+}
   
   .footer-banner-container{
     height: 560px;
@@ -671,9 +684,10 @@ margin-top: 160px;
   }
   .banner-desc .left p{
     margin:18px;
+    display: none;
   }
   .banner-desc .right h3{
-    font-size: 45px;
+    font-size: 25px;
   }
   .banner-desc .right p{
     font-size: 18px;
