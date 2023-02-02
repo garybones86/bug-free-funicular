@@ -632,14 +632,14 @@ margin-top: 160px;
 @media screen and (max-width:800px) {
   .hero-banner-container {
 
-    
+    padding: 30px;
     background-image: url(https://images.pexels.com/photos/4761671/pexels-photo-4761671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     
   
     background-position: 20%;
     border-radius: 15px;
     position: relative;
-    height: 200px;
+    height: 96%;
     line-height: 0.9;
     width: 100%;
     color: white;
