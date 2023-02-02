@@ -13,7 +13,7 @@ const {showCart,setShowCart, totalQuantities}= useStateContext();
     <div className="navbar-container">
       <p className="logo">
         <Link href="/">Bear Boxing</Link>
-    
+    <img src='https://ibb.co/kKvCBbf'/>
       </p>
     
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
