@@ -631,18 +631,19 @@ margin-top: 160px;
 
 @media screen and (max-width:800px) {
   .hero-banner-container {
-    padding: 100px 40px;
+
     
-    background-image: url(https://images.pexels.com/photos/4761598/pexels-photo-4761598.jpeg);
-    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/4761671/pexels-photo-4761671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
   
     background-position: 20%;
     border-radius: 15px;
     position: relative;
-    height: 500px;
+    height: 200px;
     line-height: 0.9;
     width: 100%;
     color: white;
+    border-radius: 10%;
 }
   .hero-banner-image{
     position: absolute;
