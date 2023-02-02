@@ -29,4 +29,3 @@ const {showCart,setShowCart, totalQuantities}= useStateContext();
 export default Navbar
 
 
-   
