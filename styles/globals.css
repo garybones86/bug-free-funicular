@@ -647,23 +647,32 @@ margin-top: 160px;
   .hero-banner-image{
     position: absolute;
     width: 20%;
-    left: 70%;
-    top: 20%;
+    left: 75%;
+    top: 10%;
     height: 20%
   }
 
   .hero-des{
-    display:none;
+    height: 10px;
+    width: 40%;
+    left:40;
+    top:-24%;
+    display: none;
   }
 
   .hero-desc-title{
     display:none;
   }
   .beats-solo{
-    display:none;
+  font-size: larger;
+  right:400px;
+
   }
 .midText{
   display:none;
+}
+.hero-banner-container button{
+  top:-20%;
 }
   
   .footer-banner-container{
