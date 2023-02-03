@@ -640,7 +640,7 @@ margin-top: 160px;
     left:-10%;
     height: auto;
     line-height: 0.9;
-    width: 140%;
+    width: 120%;
     /* color: white;
     border-radius: 14%;
     text-size-adjust: 20%; */
@@ -649,12 +649,12 @@ margin-top: 160px;
     position: absolute;
     width:100px;
     left: 65%;
-    top: 25%;
+    top: 15%;
     height:100px;
   }
   .hero-banner-container button{
     border-radius: 15px;
-   padding: 15px 16px;
+   position: relative;
    background-color:white;
    color: black;
    border: none;
@@ -663,8 +663,8 @@ margin-top: 160px;
    font-weight: 500;
    cursor: pointer;
    z-index:10000 !important;
-   left: 55%;
-   top:30%;
+   left: 65%;
+ 
   }
   .hero-des{
     height: 10px;
@@ -678,9 +678,9 @@ margin-top: 160px;
     display:none;
   }
   .beats-solo{
-  font-size: larger;
-  right:400px;
-
+  
+top: -10%;
+position: relative;
   }
 .midText{
   display:none;
