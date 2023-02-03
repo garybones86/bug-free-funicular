@@ -632,17 +632,18 @@ margin-top: 160px;
 @media screen and (max-width:800px) {
   .hero-banner-container {
 
-    padding: 200px;
+    /* padding: 200px;
   object-fit: contain;
   
     
-    position: relative;
-    height: 500px;
+    position: relative; */
+    left:-10%;
+    height: auto;
     line-height: 0.9;
-    width: 100%;
-    color: white;
+    width: 140%;
+    /* color: white;
     border-radius: 14%;
-    text-size-adjust: 20%;
+    text-size-adjust: 20%; */
 }
   .hero-banner-image{
     position: absolute;
