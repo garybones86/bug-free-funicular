@@ -69,8 +69,8 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: gray;
-  font-size: 18px;
+  color: black;
+  font-size: 20px;
 
 }
 .cart-icon{
@@ -208,7 +208,7 @@ color: white;
 .products-heading{
   text-align: center;
   margin: 40px 0px;
- color: #324d67;
+ color: rgb(21, 5, 45);
 
 }
 .products-heading h2{
@@ -367,6 +367,27 @@ padding: 20px 10px;
   justify-content: space-between;
   width: 350px;
    color: #324d67;
+
+}
+.log{
+  height:100px;
+  width:100px;
+  background-repeat: no-repeat;
+  background-size:100%;
+ left: 40%;
+ top:-20%;
+  border:none;
+  position: relative;
+  padding: none;
+  border:0;
+
+display:none;
+
+
+  margin-right:auto;
+  background-image:url('https://img.favpng.com/9/0/4/tiger-bear-drawing-clip-art-boxing-png-favpng-uCx73th96xfGsibLmRpuVJHcC.jpg');
+
+  
 
 }
 .item-desc .bottom{
@@ -658,7 +679,7 @@ margin-top: 160px;
    background-color:white;
    color: black;
    border: none;
-   margin-top: 40px;
+   margin-top: 10px;
    font-size: 20px;
    font-weight: 500;
    cursor: pointer;
@@ -679,7 +700,11 @@ margin-top: 160px;
   }
   .beats-solo{
   
-top: -10%;
+top: 80px;
+left:-10%;
+padding:5px;
+margin: 0;
+
 position: relative;
   }
 .midText{
